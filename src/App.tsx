@@ -1,6 +1,14 @@
+import { Header } from "./components/Header"
+import { Home } from "./components/Home"
+import { GlobalStyle } from "./styles/global"
+
 function App() {
   return (
-    <h1>hellou word</h1>
+    <>
+      <Header />
+      <Home />
+      <GlobalStyle />
+    </>
   )
 }
 
