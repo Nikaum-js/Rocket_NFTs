@@ -11,7 +11,7 @@ export const ContentHeader = styled.header`
   justify-content: space-between;
   align-items: center;
 
-  margin: 57px 82px 0 82px;
+  margin: 43px 82px 0 82px;
 
   img {
     width: 265px;

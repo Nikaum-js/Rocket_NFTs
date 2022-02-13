@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import Background from "../assets/background.png";
 
 export const GlobalStyle = createGlobalStyle`
   :root {
@@ -33,7 +34,23 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background: var(--body-background);
-    /* -webkit-font-smoothing: antialiased; */
+    background-image: url(${Background});
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    color: var(--text-color);
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: var(--body-background);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-logo);
+    border-radius: 5px;
   }
 
   button {

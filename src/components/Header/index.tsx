@@ -10,7 +10,7 @@ export function Header(){
         <img src={Logo} alt="logo" />
 
         <ul>
-          <li><a href=""> Comprar NFT</a></li>
+          <li><a href="">Comprar NFT</a></li>
           <li><a href="">Sobre</a></li>
           <li><a href="">FAQ</a></li>
         </ul>

@@ -1,5 +1,7 @@
+import { Gallery } from "./components/Gallery"
 import { Header } from "./components/Header"
 import { Home } from "./components/Home"
+import { Statics } from "./components/Statics"
 import { GlobalStyle } from "./styles/global"
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <>
       <Header />
       <Home />
+      <Gallery />
+      <Statics />
       <GlobalStyle />
     </>
   )
