@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerStatic = styled.main`
-  border-bottom: 2px solid #5a5757;
+  border-bottom: 1px solid #5a5757;
 `;
 
 export const ContentStatic = styled.section`
