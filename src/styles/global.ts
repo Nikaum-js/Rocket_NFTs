@@ -2,6 +2,7 @@ import { createGlobalStyle } from "styled-components";
 import Background from "../assets/background.png";
 
 export const GlobalStyle = createGlobalStyle`
+
   :root {
     --body-background: #0e0e0e;
     --color-logo: #ff5b50;
