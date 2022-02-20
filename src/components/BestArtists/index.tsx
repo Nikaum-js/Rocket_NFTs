@@ -6,7 +6,6 @@ import Artist5 from '../../assets/artista-5.png';
 import Artist6 from '../../assets/artista-6.png';
 import ArrowOrange from '../../assets/arrow-orange.svg';
 
-
 import { BoxCardsArtists, CardsArtists, ContainerArtists, ContentArtists } from "./styles";
 
 export function BestArtists() {
