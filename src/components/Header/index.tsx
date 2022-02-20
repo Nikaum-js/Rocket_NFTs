@@ -8,7 +8,7 @@ export function Header(){
     <ContainerHeader>
       <ContentHeader>
         <img src={Logo} alt="logo" />
-
+        
         <ul>
           <li><a href="">Comprar NFT</a></li>
           <li><a href="">Sobre</a></li>
