@@ -7,6 +7,7 @@ import { Popular } from "./components/Popular"
 import { Statics } from "./components/Statics"
 import { GlobalStyle } from "./styles/global"
 
+
 function App() {
   return (
     <>
